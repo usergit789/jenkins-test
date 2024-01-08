@@ -11,11 +11,11 @@ public class JenkinsTestApplication {
 
 	@PostConstruct
 	public void init() {
-		log.info("application started!!!");
+		log.info("application started!!!....");
 	}
 
 	public static void main(String[] args) {
-		log.info("application executed!!!");
+		log.info("application executed!!!....");
 		SpringApplication.run(JenkinsTestApplication.class, args);
 	}
 
